@@ -1,4 +1,16 @@
-body{
-    background: #000000;
-background: linear-gradient(359deg, rgba(0, 0, 0, 1) 0%, rgba(48, 48, 48, 1) 46%, rgba(0, 0, 0, 0.99) 100%);
+body {
+  background: #000000;
+  margin: 0 0;
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  margin: 0;
+  padding: 0;
+}
+#li-in-nav {
+  color: rgb(166, 168, 170);
+}
+#line {
+  border: none;
+  height: 2px;
+  background-color: #ebebeb;
 }
