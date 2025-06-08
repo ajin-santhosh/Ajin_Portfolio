@@ -29,3 +29,21 @@ body {
     width: auto;
 height: auto ;
 }
+#pj{
+    border: 2px solid #dedede;
+    border-radius: 5% ; 
+    box-shadow: 0 5px 8px rgb(78, 78, 78);
+}
+#tclr1{
+    color: yellow;
+}
+#pimg{
+    height: 50px;
+    width: 50px;
+}
+#ij{
+    border: 2px solid #605e5e;
+    border-radius: 10% ; 
+        box-shadow: 0 5px 8px rgb(78, 78, 78);
+
+}
