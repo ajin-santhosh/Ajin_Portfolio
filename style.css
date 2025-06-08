@@ -5,6 +5,7 @@ body {
   font-optical-sizing: auto;
   margin: 0;
   padding: 0;
+  color: white;
 }
 #li-in-nav {
   color: rgb(166, 168, 170);
@@ -13,4 +14,18 @@ body {
   border: none;
   height: 2px;
   background-color: #ebebeb;
+}
+#wrkimg{
+    height: 30px;
+    width: 30px;
+}
+#myimg{
+    height: 550px;
+    width: 400px;
+    border: 3px solid #dedede;
+    border-radius: 5% ;
+}
+#skillimg{
+    width: auto;
+height: auto ;
 }

@@ -68,10 +68,95 @@
       </div>
     </nav>
     <hr id="line" />
+    <main>
+      <!--About Section-->
+      <section id="about">
+        <div class="container">
+          <div class="row">
+            <!--About description and contents-->
+            <div class="mt-5 col-lg-8 col-md-12">
+              <h5 class="mt-5 py-1">Hello...</h5>
+              <div class="d-flex">
+                <h3 class="me-4 py-2 text-secondary">I am</h3>
+                <h1 class="text-white">Ajin Santhosh</h1>
+              </div>
+              <h4 style="color: rgb(222, 99, 99)">Senior QA Engineer</h4>
+              <h4 style="color: rgb(222, 99, 99)">
+                Full Stack Developer
+                <img
+                  src="images/icons8-in-progress-64.png"
+                  alt="work in progress img"
+                  id="wrkimg"
+                />
+              </h4>
+              <p>
+                I am Ajin currently working as a
+                <span style="color: rgb(238, 255, 0)">Senior QA Engineer</span>,
+                with solid experience in testing and quality assurance. At the
+                same time, I’m actively upskilling through a
+                <span style="color: rgb(238, 255, 0)"
+                  >MERN Stack Development</span
+                >
+                course
+                <span id="dots">...</span>
+                <span id="moreText"
+                  >with Entry App, focusing on full-stack web technologies. My
+                  goal is to transition into a developer role after completing
+                  the course, combining my QA background with strong development
+                  skills to build reliable, user-focused applications.</span
+                >
+                <button
+                  onclick="toggleText()"
+                  id="moreBtn"
+                  class="btn btn-secondary"
+                >
+                  Read More
+                </button>
+              </p>
+              <a href="assets/ajin_resume.pdf" download class="btn btn-secondary">
+                Download Resume
+              </a>
+              <h2 class="py-4">Skills</h2>
+              <div class="d-flex gap-4 py-2">
+                <img src="images/icons8-selenium-48.png" alt=" selenium" class="py-1" id="skillimg">
+                <img src="images/icons8-jira-48.png" alt="jira" class="py-1" >
+                <img src="images/icons8-mongodb-48.png" alt="mongodb" class="py-1">
+                <img src="images/icons8-express-js-64.png" alt="express js" class="py-1">
+                <img src="images/icons8-react-40.png" alt="react" class="py-1">
+                <img src="images/icons8-node-js-48.png" alt="node js" class="py-1">
+                <img src="images/icons8-bootstrap-48.png" alt="bootstrap" class="py-1">
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-12">
+              <img src="images/myimg2.jpeg" alt="my image" id="myimg" />
+            </div>
+          </div>
+          <hr id="line">
+        </div>
+        <!---->
+      </section>
+    </main>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
       crossorigin="anonymous"
     ></script>
+    <script>
+      function toggleText() {
+        const moreText = document.getElementById("moreText");
+        const btn = document.getElementById("moreBtn");
+
+        if (moreText.style.display === "none") {
+          moreText.style.display = "inline";
+          btn.textContent = "Read Less";
+        } else {
+          moreText.style.display = "none";
+          btn.textContent = "Read More";
+        }
+      }
+
+      // Initial state
+      document.getElementById("moreText").style.display = "none";
+    </script>
   </body>
 </html>
