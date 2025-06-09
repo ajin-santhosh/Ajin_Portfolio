@@ -26,8 +26,8 @@ body {
     border-radius: 5% ;
 }
 #skillimg{
-    width: auto;
-height: auto ;
+    width: 50px;
+height: 50px ;
 }
 #pj{
     border: 2px solid #dedede;
@@ -46,4 +46,9 @@ height: auto ;
     border-radius: 10% ; 
         box-shadow: 0 5px 8px rgb(78, 78, 78);
 
+}
+#cnt_1{
+    border: 2px solid #605e5e;
+    border-radius: % ; 
+    padding: 15px;
 }
